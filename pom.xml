@@ -17,6 +17,9 @@
         <connection>scm:svn:http://somerepository.com/svn_repo/trunk</connection>
         <developerConnection>scm:svn:https://somerepository.com/svn_repo/trunk</developerConnection>
         <url>http://somerepository.com/view.cgi</url>
+              <svn>
+        <javasvn implementation="javasvn" />
+             </svn>
     </scm>
     <properties>
         <java.version>1.8</java.version>
