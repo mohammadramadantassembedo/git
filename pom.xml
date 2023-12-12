@@ -76,6 +76,11 @@
                 <configuration>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
                 </configuration>
+                 <configuration>
+                <providerImplementations>
+                    <svn>javasvn</svn>
+                </providerImplementations>
+            </configuration>     
             </plugin>
         </plugins>
     </build>
